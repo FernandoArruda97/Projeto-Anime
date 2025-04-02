@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.naruto{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    height: 100vh;
+    border-radius: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+   
+}
+.naruto h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 24px;
+    margin-top: 5px;
+}
+.naruto img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100%;
+   max-height: 250px;
+    width: 100%;
+    max-width: 250px;
+    padding: 0 24px;
+  
+}
+.naruto p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 24px;
+    margin-top: 5px;
+}
+.bleach{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    height: 100vh;
+    border-radius: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+   
+}
+
+.bleach h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 24px;
+
+}
+
+.bleach img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100%;
+   max-height: 250px;
+    width: 100%;
+    max-width: 350px;
+    padding: 0 24px;
+    
+}
+.bleach p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 24px;
+    margin-top: 5px;
+}
+.full-metal{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkslateblue;
+    height: 100vh;
+    border-radius: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+   
+}
+.full-metal h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    max-width: 400px;
+    width: 100%;
+    padding: 0 24px;
+    
+}
+.full-metal img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100%;
+   max-height: 250px;
+    width: 100%;
+    max-width: 350px;
+    padding: 0 24px;
+    
+}
+.full-metal p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 24px;
+    margin-top: 5px;
+}
+.jujutsu{
+    flex: 1;
+    display: flex;
+    background-color: cadetblue;
+    height: 100vh;
+    border-radius: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    flex-direction: column;
+   
+}.jujutsu h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 24px;
+}
+.jujutsu img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100%;
+   max-height: 250px;
+    width: 100%;
+    max-width: 350px;
+    padding: 0 24px;
+}
+.jujutsu p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 24px;
+    margin-top: 5px;
+}
